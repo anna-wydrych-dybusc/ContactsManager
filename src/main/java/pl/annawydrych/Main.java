@@ -1,11 +1,15 @@
 package pl.annawydrych;
 
+
+
 public class Main {
     public static void main(String[] args) {
 
         //once this program runs, the main method will start which will create the ContactManager object myContactManager and thus ready to be used.
         //Create the ContactsManager object
         ContactsManager myContactsManager = new ContactsManager();
+        AddressInput myAddressInput = new AddressInput();
+        myAddressInput.myAddress();
 
         //create a new Contact object for Ola
         Contact friendOla = new Contact();
